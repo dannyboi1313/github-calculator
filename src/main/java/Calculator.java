@@ -4,7 +4,7 @@ class Calculator {
     Calculator(){
 
     }
-    //Adding commentsss
+    //Adding commentssss
     int add(int a , int b){
         return a + b;
     }
