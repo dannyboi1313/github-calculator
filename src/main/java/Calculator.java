@@ -6,19 +6,19 @@ class Calculator {
 
     }
     //Adding commentssss
-    int add(int a , int b){
+    static int add(int a, int b){
         return a + b;
     }
 
-    int subtract(int a , int b){
+    static int subtract(int a, int b){
         return a - b;
     }
 
-    int multiply(int a , int b){
+    static int multiply(int a, int b){
         return a * b;
     }
 
-    int divide(int a , int b){
+    static int divide(int a, int b){
         return a / b;
     }
 
@@ -38,7 +38,7 @@ class Calculator {
     .
     etc
      */
-    int fibonacciNumberFinder(int n){
+    static int fibonacciNumberFinder(int n){
         if (n <= 0) {
             throw new IllegalArgumentException("Invalid input. N should be greater than 0.");
         }
@@ -62,7 +62,7 @@ class Calculator {
     if int a = 10 then this method returns: 1010
     if int a = 16 then this method returns: 10000
      */
-    String intToBinaryNumber(int number){
+    static String intToBinaryNumber(int number){
 
         if (number == 0) {
             return "0";
@@ -84,7 +84,7 @@ class Calculator {
 
     if you run this function twice with the same String input, it must return 2 unique String IDs
      */
-    String createUniqueID(String n){
+    static String createUniqueID(String n){
         return n + UUID.randomUUID();
     }
 
